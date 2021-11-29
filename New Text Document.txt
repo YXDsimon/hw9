@@ -1,0 +1,5 @@
+no option 				3.14s
+-O3	  				1.28s
+-O3 -mfloat-abi=hard 			1.23s
+-O3 -mfloat-abi=hard –mneon-for-64bits  1.21s
+–O3, -mfloat-abi=hard, -fmpu=neon-fp-armv8 1.20s   0.971fps
